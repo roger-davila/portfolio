@@ -1,0 +1,28 @@
+.HeroName {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.HeroName .main-text {
+  font-size: 3.5rem;
+}
+
+.HeroName .main-text.accent {
+  color: var(--text-color-accent-dark);
+  color: #86b4fd;
+  color: #fd86b4;
+  /* color: #ff71ce; */
+  /* color: #FDCF86; */
+}
+
+.HeroName .slogan {
+  line-height: 1.2;
+  font-size: 2rem;
+  color: #FDCF86;
+  /* color: #fffb96; */
+  /* color: #86f0fd; */
+  /* color: #cccccc; */
+}
