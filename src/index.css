@@ -3,6 +3,7 @@
 :root {
   --bg-color-main-dark: #121212;
   --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
+  --bg-color-secondary-dark: #262526be;
   --text-color-main-dark: #ffffff;
   --text-color-accent-dark: #ff6978;
   --border-radius: 8px;
@@ -21,12 +22,14 @@ body {
   background-color: var(--bg-color-main-dark);
   /* background-color: #ffffff; */
   color: var(--text-color-main-dark);
-  padding: 1.5rem;
   min-height: 100vh;
-  height: 100vh;
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 #root, .App {
-  height: inherit;
-  max-height: 100%;
+  min-height: inherit;
 }
