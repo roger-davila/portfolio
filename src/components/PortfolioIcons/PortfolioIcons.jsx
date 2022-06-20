@@ -28,7 +28,7 @@ export function ExternalLinkIcon() {
   );
 }
 
-export function GithubIcon() {
+export function GitHubIcon() {
   return (
     <svg className="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
       {/* <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --> */}
