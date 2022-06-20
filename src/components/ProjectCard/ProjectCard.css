@@ -1,0 +1,43 @@
+.ProjectCard {
+  padding: 1rem;
+  background-color: var(--bg-color-secondary-dark);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(1.5rem);
+}
+
+.ProjectCard:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.project-image,
+.project-title,
+.project-description {
+  margin-bottom: 0.5rem;
+}
+
+.project-image {
+  border-radius: inherit;
+  aspect-ratio: 4/3;
+  width: 100%;
+}
+
+.project-links {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-links a {
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-links a:not(:last-child) {
+  border-right: 1px solid white;
+}
