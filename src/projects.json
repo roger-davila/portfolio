@@ -1,0 +1,30 @@
+[ 
+  {
+    "name": "Hoja",
+    "description": "Simple markdown note taking application. Features markdown rendering and autosaving. Access your notes either on mobile or desktop!",
+    "githubLink": "https://github.com/roger-davila/hoja",
+    "deployedLink": "https://hoja-note.herokuapp.com/",
+    "imagePath": "/hoja.png"
+  },
+  {
+    "name": "Flixnet",
+    "description": "Mock e-commerce site that lets you browse movies purchase them. Keep track of your orders and view your cart any time!",
+    "githubLink": "https://github.com/roger-davila/flixnet",
+    "deployedLink": "https://flixnet-tbd.herokuapp.com/",
+    "imagePath": "/flixnet.png"
+  },
+  {
+    "name": "Archival",
+    "description": "Online card collection organizer for Magic: The Gathering Cards. Manage your personal card collection by digitizing it! See other user's collections too!",
+    "githubLink": "https://github.com/roger-davila/mtg-archive",
+    "deployedLink": "https://archival-mtg.herokuapp.com/",
+    "imagePath": "/archival.png"
+  },
+  {
+    "name": "Solitaire",
+    "description": "",
+    "githubLink": "https://github.com/roger-davila/solitaire",
+    "deployedLink": "https://roger-davila.github.io/solitaire/",
+    "imagePath": "/solitaire.png"
+  }
+]
