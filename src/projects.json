@@ -15,14 +15,14 @@
   },
   {
     "name": "Archival",
-    "description": "Online card collection organizer for Magic: The Gathering Cards. Manage your personal card collection by digitizing it! See other user's collections too!",
+    "description": "Online card collection organizer for Magic: The Gathering cards. Manage your personal card collection by digitizing it! See other user's collections too!",
     "githubLink": "https://github.com/roger-davila/mtg-archive",
     "deployedLink": "https://archival-mtg.herokuapp.com/",
     "imagePath": "/archival.png"
   },
   {
     "name": "Solitaire",
-    "description": "",
+    "description": "Classic game of solitaire!",
     "githubLink": "https://github.com/roger-davila/solitaire",
     "deployedLink": "https://roger-davila.github.io/solitaire/",
     "imagePath": "/solitaire.png"
