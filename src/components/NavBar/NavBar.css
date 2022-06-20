@@ -2,6 +2,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 1.5rem;
+  z-index: 100000000;
   background-color: var(--bg-color-secondary-dark);
   border-radius: var(--border-radius);
   padding: 1rem;
