@@ -8,21 +8,21 @@
   },
   {
     "name": "Flixnet",
-    "description": "Mock e-commerce site that lets you browse movies purchase them. Keep track of your orders and view your cart any time!",
+    "description": "Mock e-commerce site that lets you browse movies and purchase them. Keep track of your orders and view your cart any time!",
     "githubLink": "https://github.com/roger-davila/flixnet",
     "deployedLink": "https://flixnet-tbd.herokuapp.com/",
     "imagePath": "/flixnet.png"
   },
   {
     "name": "Archival",
-    "description": "Online card collection organizer for Magic: The Gathering cards. Manage your personal card collection by digitizing it! See other user's collections too!",
+    "description": "Online card collection organizer for Magic: The Gathering cards. Manage your personal card collection by digitizing it and see collections from other users!",
     "githubLink": "https://github.com/roger-davila/mtg-archive",
     "deployedLink": "https://archival-mtg.herokuapp.com/",
     "imagePath": "/archival.png"
   },
   {
     "name": "Solitaire",
-    "description": "Classic game of solitaire!",
+    "description": "Classic game of solitaire.",
     "githubLink": "https://github.com/roger-davila/solitaire",
     "deployedLink": "https://roger-davila.github.io/solitaire/",
     "imagePath": "/solitaire.png"
