@@ -10,6 +10,7 @@ import './App.css';
 
 function App() {
   const [user, setUser] = useState(getUser());
+  const [theme, setTheme] = useState('dark');
   const [windowSize, setWindowSize] = useState({
     height: window.innerHeight,
     width: window.innerWidth
@@ -28,9 +29,15 @@ function App() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  function toggleTheme() {
+    const option = theme === 'dark' ? 'light' : 'dark';
+    setTheme(option);
+    document.documentElement.setAttribute('data-theme', option);
+  }
+
   return (
     <main className='App'>
-      {windowSize.width < 960 ? <NavBar /> : <DesktopNav />}
+      {windowSize.width < 960 ? <NavBar toggleTheme={toggleTheme} /> : <DesktopNav toggleTheme={toggleTheme} />}
       <Routes>
         <Route path='/' element={<HeroName />} />
         <Route path='/work' element={<WorkPage />} />

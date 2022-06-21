@@ -5,7 +5,20 @@
   --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
   --bg-color-secondary-dark: #262526be;
   --text-color-main-dark: #ffffff;
+  --text-color-name: #fd86b4;
+  --text-color-slogan: #FDCF86;
+  --border-radius: 8px;
+}
+
+:root[data-theme='light'] {
+  --bg-color-main-dark: #f3f3f3;
+  --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
+  --bg-color-secondary-dark: #dededebe;
+  --text-color-main-dark: #282828;
   --text-color-accent-dark: #ff6978;
+  --text-color-name: #69ffa5;
+  --text-color-name: #00df59;
+  --text-color-slogan: #69c3ff;
   --border-radius: 8px;
 }
 
@@ -26,8 +39,9 @@ body {
   background-color: var(--bg-color-main-dark);
   /* background-color: #ffffff; */
   color: var(--text-color-main-dark);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   min-height: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 
 #root {
@@ -36,5 +50,5 @@ body {
 }
 
 #root, .App {
-  min-height: inherit;
+  min-height: 100vh;
 }

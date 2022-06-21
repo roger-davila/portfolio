@@ -4,7 +4,7 @@ import { MenuIcon, LightIcon, XIcon } from '../PortfolioIcons/PortfolioIcons';
 import * as userService from '../../utilities/users-service';
 import './NavBar.css';
 
-export default function NavBar() {
+export default function NavBar({ toggleTheme }) {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   function handleClick() {
@@ -27,7 +27,7 @@ export default function NavBar() {
       </nav>
       <div className='NavBar-wrapper'>
         <MenuIcon classString='open button nav-icon' handleClick={handleClick} />
-        <LightIcon classString='button nav-icon' />
+        <LightIcon classString='button nav-icon' handleClick={toggleTheme} />
       </div>
     </>
   );
