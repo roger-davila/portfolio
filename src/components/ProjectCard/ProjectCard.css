@@ -1,4 +1,6 @@
 .ProjectCard {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   width: 100%;
   background-color: var(--bg-color-secondary-dark);
@@ -23,6 +25,7 @@
 }
 
 .project-links {
+  margin-top: auto;
   padding: 1rem;
   display: flex;
   justify-content: center;
