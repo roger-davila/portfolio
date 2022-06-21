@@ -6,3 +6,15 @@
   text-align: left;
   margin-bottom: 1rem;
 }
+
+.projects-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media only screen and (min-width: 764px) {
+  .projects-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}

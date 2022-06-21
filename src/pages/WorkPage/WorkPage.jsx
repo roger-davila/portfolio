@@ -7,7 +7,7 @@ export default function WorkPage() {
   return (
     <main className='WorkPage main-container'>
       <h1 className='main-header'>My Projects</h1>
-      <section>
+      <section className='projects-section'>
         {projects}
       </section>
     </main>
