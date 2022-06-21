@@ -18,15 +18,17 @@ export default function NavBar() {
   // }
 
   return (
-    <div className='NavBar-wrapper'>
-      <MenuIcon classString='open button nav-icon' handleClick={handleClick} />
-      <LightIcon classString='button nav-icon' />
+    <>
       <nav className={`NavBar ${isNavOpen ? 'active' : ''}`}>
         <XIcon classString='close button nav-icon' handleClick={handleClick} />
         <Link className='NavBar-item' onClick={handleClick} to="/">Home</Link>
         <Link className='NavBar-item' onClick={handleClick} to="/work">Work</Link>
         <Link className='NavBar-item' onClick={handleClick} to="/resume">Resume</Link>
       </nav>
-    </div>
+      <div className='NavBar-wrapper'>
+        <MenuIcon classString='open button nav-icon' handleClick={handleClick} />
+        <LightIcon classString='button nav-icon' />
+      </div>
+    </>
   );
 }
