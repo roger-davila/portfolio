@@ -27,16 +27,14 @@
 }
 
 .job-description {
-  margin-left: 0.75rem;
+  margin-left: 1rem;
   line-height: 1.4;
 }
 
 .job-description li {
-  padding-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .job-description li::marker {
-  content: '>';
   color: var(--text-color-name);
 }
