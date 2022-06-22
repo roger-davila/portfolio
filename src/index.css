@@ -4,7 +4,8 @@
   --bg-color-main-dark: #121212;
   --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
   --bg-color-secondary-dark: #262526be;
-  --text-color-main-dark: #ffffff;
+  --text-color-main-dark: #eaeaea;
+  --text-color-muted: #ffffff87;
   --text-color-name: #fd86b4;
   --text-color-slogan: #FDCF86;
   --border-radius: 8px;
@@ -15,10 +16,10 @@
   --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
   --bg-color-secondary-dark: #dededebe;
   --text-color-main-dark: #282828;
+  --text-color-muted: #4e4e4e;
   --text-color-accent-dark: #ff6978;
-  --text-color-name: #69ffa5;
-  --text-color-name: #00df59;
-  --text-color-slogan: #69c3ff;
+  --text-color-name: #00abdf;
+  --text-color-slogan: #04e28c;
   --border-radius: 8px;
 }
 

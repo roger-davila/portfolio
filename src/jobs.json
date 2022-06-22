@@ -1,0 +1,30 @@
+[ 
+  {
+    "company": "General Assembly",
+    "jobTitle": "Software Engineering Immersive",
+    "dateStarted": "Mar 2022",
+    "dateEnded": "Jun 2022",
+    "jobDescription": ["Completed an intensive, 12-week software engineering Bootcamp, developing skills in Javascript, Node, Python, Django, MongoDB, SQL, and React through project-based learning.", "Created a couple of projects such as:", "Hoja: A simple and intuitive markdown note-taking app built using the MERN stack.", "Flixnet: A mock e-commerce site that lets you browse movies and purchase them built using Python, Django, and PostgreSQL.", "Archival: A web-based card collection organizer built using Mongoose, Express, and Node.", "Solitaire: A DOM-based game of solitaire using Javascript, HTML, CSS, and MVC architecture."]
+  },
+  {
+    "company": "Pax Labs",
+    "jobTitle": "Failure Analysis Technician",
+    "dateStarted": "Feb 2021",
+    "dateEnded": "Feb 2022",
+    "jobDescription": ["Conducted root cause analysis on vaporizer device failures, using analytical techniques such as spectroscopy, microscopy, EDS, teardowns, circuit analysis, thermal imaging, and recommended product design improvements based on findings.", "Wrote SOPs for common device failures and experiments to improve investigation time and provide a knowledge bank for future investigations and experimental designs.", "Generated large datasets from devices during and after experimental testing using Python scripts.", "Developed an in-house inventory manager using Google Apps Script and Google Sheets to keep track of lab chemicals going in and out."]
+  },
+  {
+    "company": "Pax Labs",
+    "jobTitle": "Lab Technician",
+    "dateStarted": "Oct 2018",
+    "dateEnded": "Feb 2021",
+    "jobDescription": ["Developed a predictive model for product performance with data produced from experiments that improved engineering designs based on the results.", "Characterized cannabis oil properties and performance using rheological methods and puffing testing procedures.", "Trained and managed 5 lab technicians on standard procedures and lab safety."]
+  },
+  {
+    "company": "Undergraduate Research Assistant",
+    "jobTitle": "UC Santa Cruz",
+    "dateStarted": "Sep 2017",
+    "dateEnded": "Feb 2017",
+    "jobDescription": ["Ran sequential analysis on data to map out how parents and their children navigate exhibits in a museum, using GSEQ5, a statistical analysis program.", "Created a user-friendly manual for the GSEQ5 statistical analysis program, instructing users how to run basic features of the program.", "Responsible for finding and reviewing over 50 academic sources with a graduate student for their research proposal.", "Collected more than ten hours of field video data in a children’s museum using observational methods.", "Reviewed and transcribed over 15 hours of video data to prepare for analysis."]
+  }
+]

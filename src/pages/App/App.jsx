@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
 import WorkPage from '../WorkPage/WorkPage';
+import ResumePage from '../ResumePage/ResumePage';
 import NavBar from '../../components/NavBar/NavBar';
 import DesktopNav from '../../components/DesktopNav/DesktopNav';
 import HeroName from '../../components/HeroName/HeroName';
@@ -41,6 +42,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HeroName />} />
         <Route path='/work' element={<WorkPage />} />
+        <Route path='/resume' element={<ResumePage />} />
         {/* Route components in here */}
       </Routes>
     </main>

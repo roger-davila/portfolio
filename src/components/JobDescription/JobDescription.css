@@ -1,0 +1,42 @@
+.JobDescription {
+  text-align: left;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-color-secondary-dark);
+}
+
+.job-info {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-company {
+  font-weight: bold;
+}
+
+.job-title {
+  color: var(--text-color-name);
+}
+
+.job-duration {
+  color: var(--text-color-muted);
+  margin-bottom: 0.5rem;
+}
+
+.job-description {
+  margin-left: 0.75rem;
+  line-height: 1.4;
+}
+
+.job-description li {
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-description li::marker {
+  content: '>';
+  color: var(--text-color-name);
+}
