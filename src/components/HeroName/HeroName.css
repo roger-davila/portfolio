@@ -1,6 +1,5 @@
 .HeroName {
   height: 100%;
-  height: -webkit-fill-available;
   text-align: left;
   display: flex;
   flex-direction: column;
