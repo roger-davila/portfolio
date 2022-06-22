@@ -31,14 +31,11 @@
   padding: 0;
 }
 
-html, body {
-  height: fill-available;
-}
-
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-color-main-dark);
   color: var(--text-color-main-dark);
+  min-height: 100vh;
 }
 
 #root {
@@ -47,5 +44,5 @@ body {
 }
 
 #root, .App {
-  height: fill-available;
+  min-height: inherit;
 }
