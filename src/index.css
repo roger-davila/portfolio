@@ -31,14 +31,14 @@
   padding: 0;
 }
 
+html, body {
+  height: fill-available;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-color-main-dark);
-  /* background-color: #ffffff; */
   color: var(--text-color-main-dark);
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-  min-height: fill-available;
 }
 
 #root {
@@ -47,7 +47,5 @@ body {
 }
 
 #root, .App {
-  min-height: 100vh;
-  max-height: -webkit-fill-available;
-  max-height: fill-available;
+  height: fill-available;
 }
