@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
+import ScrollToTop from '../../components/ScrollToTop';
 import AuthPage from '../AuthPage/AuthPage';
 import WorkPage from '../WorkPage/WorkPage';
 import ResumePage from '../ResumePage/ResumePage';
@@ -39,12 +40,13 @@ function App() {
   return (
     <main className='App'>
       {windowSize.width < 960 ? <NavBar toggleTheme={toggleTheme} /> : <DesktopNav toggleTheme={toggleTheme} />}
-      <Routes>
-        <Route path='/' element={<HeroName />} />
-        <Route path='/work' element={<WorkPage />} />
-        <Route path='/resume' element={<ResumePage />} />
-        {/* Route components in here */}
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route path='/' element={<HeroName />} />
+          <Route path='/work' element={<WorkPage />} />
+          <Route path='/resume' element={<ResumePage />} />
+        </Routes>
+      </ScrollToTop>
     </main>
   );
 }
