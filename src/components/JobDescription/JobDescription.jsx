@@ -9,7 +9,7 @@ export default function JobDescription({ job }) {
       </section>
       <p className='job-duration'>{job.dateStarted} - {job.dateEnded}</p>
       <ul className='job-description'>
-        {job.jobDescription.map((description) => <li>{description}</li>)}
+        {job.jobDescription.map((description, idx) => <li key={idx}>{description}</li>)}
       </ul>
     </article>
   );
