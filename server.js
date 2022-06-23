@@ -1,4 +1,4 @@
-const sslRedirect = require('heroku-ssl-redirect');
+const sslRedirect = require('heroku-ssl-redirect').default;
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
@@ -13,7 +13,7 @@ const app = express();
 app.use(sslRedirect());
 
 app.use(logger('dev'));
-// Process data in body of request if 
+// Process data in body of request if npm 
 // Content-Type: 'application/json'
 // and put that data on req.body
 app.use(express.json());
