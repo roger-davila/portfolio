@@ -11,6 +11,7 @@ import HeroName from '../../components/HeroName/HeroName';
 import './App.css';
 
 function App() {
+  const MOBILE_NAV_WIDTH = 640; // Screen width to begin using mobile nav
   const [user, setUser] = useState(getUser());
   const [theme, setTheme] = useState('dark');
   const [windowSize, setWindowSize] = useState({
@@ -39,7 +40,7 @@ function App() {
 
   return (
     <main className='App'>
-      {windowSize.width < 960 ? <NavBar toggleTheme={toggleTheme} /> : <DesktopNav toggleTheme={toggleTheme} />}
+      {windowSize.width < MOBILE_NAV_WIDTH ? <NavBar toggleTheme={toggleTheme} /> : <DesktopNav toggleTheme={toggleTheme} />}
       <ScrollToTop>
         <Routes>
           <Route path='/' element={<HeroName />} />
