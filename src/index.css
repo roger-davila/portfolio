@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
-:root {
+:root[data-theme='dark'] {
   --bg-color-main-dark: #121212;
   --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
   --bg-color-secondary-dark: #262526be;
@@ -46,3 +46,28 @@ body {
 #root, .App {
   min-height: inherit;
 }
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    --bg-color-main-dark: #f3f3f3;
+    --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
+    --bg-color-secondary-dark: #dededebe;
+    --text-color-main-dark: #282828;
+    --text-color-muted: #4e4e4e;
+    --text-color-accent-dark: #ff6978;
+    --text-color-name: #00abdf;
+    --text-color-slogan: #04e28c;
+    --border-radius: 8px;
+  }
+
+  :root[data-theme='dark'] {
+    --bg-color-main-dark: #121212;
+    --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
+    --bg-color-secondary-dark: #262526be;
+    --text-color-main-dark: #eaeaea;
+    --text-color-muted: #ffffff87;
+    --text-color-name: #fd86b4;
+    --text-color-slogan: #FDCF86;
+    --border-radius: 8px;
+  }
+} */
