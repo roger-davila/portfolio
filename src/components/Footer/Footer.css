@@ -1,0 +1,8 @@
+.Footer {
+  padding: 1rem;
+}
+
+.Footer p {
+  font-size: 0.8rem;
+  color: var(--text-color-muted);
+}
