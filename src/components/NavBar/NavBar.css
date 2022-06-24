@@ -64,3 +64,12 @@
   height: 24px;
   width: 24px;
 }
+
+.NavBar .nav-icon-link {
+  
+}
+
+.NavBar .external-links-container {
+  display: flex;
+  gap: 2rem;
+}
