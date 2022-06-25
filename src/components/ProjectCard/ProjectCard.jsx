@@ -8,13 +8,13 @@ export default function ProjectCard({ project }) {
       <p className='project-description'>{project.description}</p>
       <section className='project-links'>
         <div>
-          <a href={project.githubLink}>
+          <a href={project.githubLink} target='_blank'>
             <GitHubIcon classString='link-icon' />
             <p>GitHub</p>
           </a>
         </div>
         <div>
-          <a href={project.deployedLink}>
+          <a href={project.deployedLink} target='_blank'>
             <ExternalLinkIcon classString='link-icon' />
             <p>Visit {project.name}</p>
           </a>
