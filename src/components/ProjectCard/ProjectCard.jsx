@@ -16,7 +16,7 @@ export default function ProjectCard({ project }) {
         <div>
           <a href={project.deployedLink}>
             <ExternalLinkIcon classString='link-icon' />
-            <p>Deployed</p>
+            <p>Visit {project.name}</p>
           </a>
         </div>
       </section>
