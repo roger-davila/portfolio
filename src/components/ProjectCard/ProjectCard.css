@@ -41,7 +41,7 @@
 }
 
 .project-links div:not(:last-child) {
-  border-right: 1px solid white;
+  border-right: 1px solid var(--text-color-muted);
 }
 
 .project-links a {
