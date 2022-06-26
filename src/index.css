@@ -13,8 +13,11 @@
 
 :root[data-theme='light'] {
   --bg-color-main-dark: #f3f3f3;
+  --bg-color-main-dark: #FFFEFE;
   --bg-color-secondary-dark: rgba(255, 255, 255, 0.08);
   --bg-color-secondary-dark: #dededebe;
+  --bg-color-secondary-dark: #d9dfe3aa;
+  --bg-color-secondary-dark: #d9dfe3a0;
   --text-color-main-dark: #282828;
   --text-color-muted: #4e4e4e;
   --text-color-accent-dark: #ff6978;
