@@ -1,10 +1,10 @@
 [ 
   {
     "company": "General Assembly",
-    "jobTitle": "Software Engineering Immersive",
+    "jobTitle": "Software Engineering Fellow",
     "dateStarted": "Mar 2022",
     "dateEnded": "Jun 2022",
-    "jobDescription": ["Completed an intensive, 12-week software engineering bootcamp, developing skills in Javascript, Node, Python, Django, MongoDB, SQL, and React through project-based learning.", "Created a couple of projects such as:", "Hoja: A simple and intuitive markdown note-taking app built using the MERN stack.", "Flixnet: A mock e-commerce site built using Python, Django, and PostgreSQL that lets you browse movies and purchase them.", "Archival: A web-based card collection organizer built using Mongoose, Express, and Node.", "Solitaire: A DOM-based game of solitaire using Javascript, HTML, CSS, and MVC architecture."]
+    "jobDescription": ["Completed an intensive, 12-week software engineering boot camp, developing skills in Javascript, Node, Python, Django, MongoDB, SQL, and React through project-based learning. Created a couple of projects such as:", "Hoja: A simple and intuitive markdown note-taking app built using the MERN stack.", "Flixnet: A mock e-commerce site built using Python, Django, and PostgreSQL that lets you browse movies and purchase them.", "Archival: A web-based card collection organizer built using Mongoose, Express, and Node.", "Solitaire: A DOM-based game of solitaire using Javascript, HTML, CSS, and MVC architecture."]
   },
   {
     "company": "Pax Labs",
