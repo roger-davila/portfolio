@@ -1,30 +1,53 @@
-[ 
+[
+  {
+    "company": "U.S. Census Bureau and General Assembly",
+    "jobTitle": "Full Stack Developer",
+    "dateStarted": "Jul 2022",
+    "dateEnded": "Present",
+    "jobDescription": [
+      "Participated in a team of 15 people consisting of full stack developers, UX designers, and data scientists to create Grant Guide, a single-page web app for under-resourced communities that simplifies finding and applying for environmental remediation grants.",
+      "Developed an advanced search feature for over 400 federal grants in Michigan for environmental remediation with multi-category selection, a funding amount slider, and fuzzy searching.",
+      "Collaborated with the UX designers to build most of the React components for the landing page, grants search page, and user dashboard page to ensure an intuitive user flow when using the application.",
+      "Communicated daily with the lead developer, program manager, and cross-functional teams using an agile workflow process."
+    ]
+  },
   {
     "company": "General Assembly",
     "jobTitle": "Software Engineering Fellow",
     "dateStarted": "Mar 2022",
     "dateEnded": "Jun 2022",
-    "jobDescription": ["Completed an intensive, 12-week software engineering boot camp, developing skills in Javascript, Node, Python, Django, MongoDB, SQL, and React through project-based learning. Created a couple of projects such as:", "Hoja: A simple and intuitive markdown note-taking app built using the MERN stack.", "Flixnet: A mock e-commerce site built using Python, Django, and PostgreSQL that lets you browse movies and purchase them.", "Archival: A web-based card collection organizer built using Mongoose, Express, and Node.", "Solitaire: A DOM-based game of solitaire using Javascript, HTML, CSS, and MVC architecture."]
+    "jobDescription": [
+      "Developed skills in computer science, software engineering, and full-stack development with over 460 hours of professional-led curriculum and created four projects such as:",
+      "Hoja: A sleek markdown note-taking application with autosaving and the ability to switch between raw and parsed markdown text. Allows the user to create notebooks to organize notes neatly.",
+      "Flixnet: A mock e-commerce site and movie database using a 3rd party movie API that lets users browse movies and add them to their cart for checkout. Users can track their past orders on the users' page.",
+      "Archival: A trading card collection organizer and reference tool using 3rd party data of over 60,000 records where users can organize their collections and see other users' collections.",
+      "Solitaire: A fun rendition of Solitaire with an easy-to-use interface using MVC development architecture and object-oriented programming to ensure separation of concerns in the code base."
+    ]
   },
   {
     "company": "Pax Labs",
     "jobTitle": "Failure Analysis Technician",
     "dateStarted": "Feb 2021",
     "dateEnded": "Feb 2022",
-    "jobDescription": ["Conducted root cause analysis on vaporizer device failures, using analytical techniques such as spectroscopy, microscopy, EDS, teardowns, circuit analysis, thermal imaging, and recommended product design improvements based on findings.", "Wrote SOPs for common device failures and experiments to improve investigation time and provide a knowledge bank for future investigations and experimental designs.", "Generated large datasets from devices during and after experimental testing using Python scripts.", "Developed an in-house inventory manager using Google Apps Script and Google Sheets to keep track of lab chemicals going in and out."]
+    "jobDescription": [
+      "Contributed to the Product Integrity team to ensure device safety and performance of the Pax and Pax Era vaporizers product lines, conducted root cause analysis on vaporizer device failures, and recommended hardware design improvements to cross-functional teams.",
+      "Implemented an inventory manager using Google Apps Script and Google Sheets to keep track of 200 lab chemicals going in and out, easing the material request process within the organization.",
+      "Wrote a parsing script using JavaScript and Node to extract lab data from over 100 pdfs of test results to output into a spreadsheet, making the data extraction process easier for the chemistry team.",
+      "Developed a prediction model of product performance to provide a baseline metric for engineering design changes."
+    ]
   },
   {
     "company": "Pax Labs",
     "jobTitle": "Lab Technician",
     "dateStarted": "Oct 2018",
     "dateEnded": "Feb 2021",
-    "jobDescription": ["Developed a predictive model for product performance with data produced from experiments that improved engineering designs based on the results.", "Characterized cannabis oil properties and performance using rheological methods and puffing testing procedures.", "Trained and managed 5 lab technicians on standard procedures and lab safety."]
+    "jobDescription": []
   },
   {
     "company": "University of California Santa Cruz",
     "jobTitle": "Undergraduate Research Assistant",
     "dateStarted": "Sep 2017",
     "dateEnded": "Feb 2017",
-    "jobDescription": ["Ran sequential analysis on data to map out how parents and their children navigate exhibits in a museum, using GSEQ5, a statistical analysis program.", "Created a user-friendly manual for the GSEQ5 statistical analysis program, instructing users how to run basic features of the program.", "Responsible for finding and reviewing over 50 academic sources with a graduate student for their research proposal.", "Collected more than ten hours of field video data in a children’s museum using observational methods.", "Reviewed and transcribed over 15 hours of video data to prepare for analysis."]
+    "jobDescription": []
   }
 ]
